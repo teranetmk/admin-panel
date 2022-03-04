@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56abc574c9c50fc6e4b7f5ef2a76cd50",
+    "content-hash": "e2c0324a90895f1eb809b1ebb523ef6b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1189,6 +1189,70 @@
             "time": "2022-03-03T15:14:29+00:00"
         },
         {
+            "name": "laravel/sanctum",
+            "version": "v2.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sanctum.git",
+                "reference": "dc5d749ba9bfcfd68d8f5c272238f88bea223e66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/dc5d749ba9bfcfd68d8f5c272238f88bea223e66",
+                "reference": "dc5d749ba9bfcfd68d8f5c272238f88bea223e66",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/contracts": "^6.9|^7.0|^8.0|^9.0",
+                "illuminate/database": "^6.9|^7.0|^8.0|^9.0",
+                "illuminate/support": "^6.9|^7.0|^8.0|^9.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0",
+                "phpunit/phpunit": "^8.0|^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Sanctum\\SanctumServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Sanctum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+            "keywords": [
+                "auth",
+                "laravel",
+                "sanctum"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/sanctum/issues",
+                "source": "https://github.com/laravel/sanctum"
+            },
+            "time": "2022-02-16T14:40:23+00:00"
+        },
+        {
             "name": "laravel/serializable-closure",
             "version": "v1.1.1",
             "source": {
@@ -1650,6 +1714,53 @@
                 }
             ],
             "time": "2021-11-21T11:48:40+00:00"
+        },
+        {
+            "name": "mohamedgaber-intake40/sanctum-refresh-token",
+            "version": "v1.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token.git",
+                "reference": "a190cb0caddba70fc2dd6f6d357addcba0445e05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mohamedgaber-intake40/sanctum-refresh-token/zipball/a190cb0caddba70fc2dd6f6d357addcba0445e05",
+                "reference": "a190cb0caddba70fc2dd6f6d357addcba0445e05",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/sanctum": "^2.11"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MohamedGaber\\SanctumRefreshToken\\SanctumRefreshTokenServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MohamedGaber\\SanctumRefreshToken\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Gaber",
+                    "email": "mohamed.gaberiti40@gmail.com"
+                }
+            ],
+            "description": "add refresh token feature to laravel sanctum official package",
+            "support": {
+                "issues": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token/issues",
+                "source": "https://github.com/mohamedgaber-intake40/sanctum-refresh-token/tree/v1.23"
+            },
+            "time": "2021-11-13T12:15:39+00:00"
         },
         {
             "name": "monolog/monolog",

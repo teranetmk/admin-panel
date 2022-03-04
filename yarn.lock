@@ -932,6 +932,13 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@casl/ability@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@casl/ability/-/ability-4.1.6.tgz#89f263903adfc9316cedff329ad615564662448a"
+  integrity sha512-ZI30fRacHKCCrWJn1pmxx/+IKUkoycVNz+Mge9EeIH+esDT7nydgWbitVPnlBAbxQXz5eybPAvfPSg3WOa2izw==
+  dependencies:
+    sift "^13.0.0"
+
 "@casl/vue@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@casl/vue/-/vue-1.1.1.tgz#e3aa3125b17ec83cabfdd8d3b5029cc57981d54e"
@@ -8761,6 +8768,11 @@ side-channel@^1.0.4:
     call-bind "^1.0.0"
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
+
+sift@^13.0.0:
+  version "13.5.4"
+  resolved "https://registry.yarnpkg.com/sift/-/sift-13.5.4.tgz#7b2a67f724c8b2fca121fcfdef4011bb1ea4e3ef"
+  integrity sha512-J/d0r/MJlD7vG3j6FZI3/KnN+MxEmPUx2nyKNawysbl2ktisEnAWI5j0AgHM19p4xFA2vDXve4i8TQYYfi9O6Q==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.7"
