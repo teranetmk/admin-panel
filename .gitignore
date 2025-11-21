@@ -7,7 +7,6 @@
 /public/images
 /storage/*.key
 /vendor
-.env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -23,7 +22,6 @@ node_modules
 /dist
 
 # local env files
-.env.local
 .env.*.local
 
 # Log files
@@ -47,3 +45,4 @@ yarn-error.log*
 
 # Docs
 /docs/.temp
+config.bat
